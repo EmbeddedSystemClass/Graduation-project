@@ -1,0 +1,1512 @@
+Dependencies for Project 'Template', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5C665E9E)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\Demo\GUIDemo.h)(0x55506E42)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\HARDWARE\SD\includes.h)(0x5C51F26C)
+I (..\HARDWARE\LCD\LCD.h)(0x5C508D18)
+I (F:\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+F (.\stm32f10x_it.c)(0x4EBEACB0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x4D99A426)
+I (stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\system_stm32f10x.c)(0x4D99A426)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\LED\led.c)(0x55502813)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\KEY\key.c)(0x550BA50B)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+F (..\HARDWARE\SRAM\sram.c)(0x550844BC)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sram.o --omf_browse ..\obj\sram.crf --depend ..\obj\sram.d)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+F (..\HARDWARE\IIC\myiic.c)(0x4E76B334)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+F (..\HARDWARE\24CXX\24cxx.c)(0x50082AF8)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\24cxx.o --omf_browse ..\obj\24cxx.crf --depend ..\obj\24cxx.d)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+F (..\HARDWARE\SPI\spi.c)(0x532D3572)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\HARDWARE\SPI\spi.h)(0x532D22BA)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\TOUCH\ctiic.c)(0x531E8A8E)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ctiic.o --omf_browse ..\obj\ctiic.crf --depend ..\obj\ctiic.d)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x531E8A9A)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+F (..\HARDWARE\TOUCH\gt9147.c)(0x55CB092E)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gt9147.o --omf_browse ..\obj\gt9147.crf --depend ..\obj\gt9147.d)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x531E8A9A)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\HARDWARE\TOUCH\ott2001a.c)(0x55CB0F9D)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ott2001a.o --omf_browse ..\obj\ott2001a.crf --depend ..\obj\ott2001a.d)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x531E8A9A)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+F (..\HARDWARE\TOUCH\touch.c)(0x55CB0EC5)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\touch.o --omf_browse ..\obj\touch.crf --depend ..\obj\touch.d)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\LCD\lcd.h)(0x5C508D18)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (F:\MDK5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+F (..\HARDWARE\TIMER\timer.c)(0x5C604ACE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\MALLOC\malloc.h)(0x55506F66)
+F (..\HARDWARE\TOUCH\ft5206.c)(0x55CB0C5D)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ft5206.o --omf_browse ..\obj\ft5206.crf --depend ..\obj\ft5206.d)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x531E8A9A)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\HARDWARE\LCD\lcd.c)(0x5C508D18)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+I (..\HARDWARE\LCD\lcd.h)(0x5C508D18)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\font.h)(0x52C52FE8)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+F (..\HARDWARE\FLASH\flash.c)(0x55508D44)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\flash.o --omf_browse ..\obj\flash.crf --depend ..\obj\flash.d)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\SPI\spi.h)(0x532D22BA)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+F (..\HARDWARE\SD\MMC_SD.C)(0x532D3676)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mmc_sd.o --omf_browse ..\obj\mmc_sd.crf --depend ..\obj\mmc_sd.d)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\HARDWARE\SPI\spi.h)(0x532D22BA)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\SYSTEM\delay\delay.c)(0x555AC883)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\sys\sys.c)(0x550BE77F)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\usart\usart.c)(0x550BEB31)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\CORE\startup_stm32f10x_hd.s)(0x54BA093C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\MALLOC\malloc.c)(0x5C604922)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\malloc.o --omf_browse ..\obj\malloc.crf --depend ..\obj\malloc.d)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+F (..\FWLIB\STM32F10x_FWLib\src\stm32f10x_crc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_crc.o --omf_browse ..\obj\stm32f10x_crc.crf --depend ..\obj\stm32f10x_crc.d)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x5039863E)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\EMWIN\STemWin\OS\GUI_X.c)(0x52E7F264)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gui_x.o --omf_browse ..\obj\gui_x.crf --depend ..\obj\gui_x.d)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+F (..\EMWIN\STemWin\Config\GUIConf.c)(0x55518D82)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\guiconf.o --omf_browse ..\obj\guiconf.crf --depend ..\obj\guiconf.d)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\MALLOC\malloc.h)(0x55506F66)
+F (..\EMWIN\STemWin\Config\GUIDRV_Template.c)(0x55507A1F)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\guidrv_template.o --omf_browse ..\obj\guidrv_template.crf --depend ..\obj\guidrv_template.d)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\LCD_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\LCDConf.h)(0x5426B0F8)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_ConfDefaults.h)(0x548F1219)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (..\EMWIN\STemWin\Config\GUI_X_Touch_Analog.c)(0x552DE470)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gui_x_touch_analog.o --omf_browse ..\obj\gui_x_touch_analog.crf --depend ..\obj\gui_x_touch_analog.d)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\EMWIN\STemWin\Config\LCDConf_FlexColor_Template.c)(0x552DE4A1)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\lcdconf_flexcolor_template.o --omf_browse ..\obj\lcdconf_flexcolor_template.crf --depend ..\obj\lcdconf_flexcolor_template.d)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\EMWIN\STemWin\Config\GUIDRV_Template.h)(0x52E7F264)
+I (..\EMWIN\STemWin\inc\GUIDRV_FlexColor.h)(0x548F1216)
+F (..\EMWIN\STemWin\Lib\STemWin526_CM3_Keil.lib)(0x548F1217)()
+F (..\TEXT\fontupd.c)(0x5C51E409)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\fontupd.o --omf_browse ..\obj\fontupd.crf --depend ..\obj\fontupd.d)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\HARDWARE\SD\includes.h)(0x5C51F26C)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\HARDWARE\LCD\LCD.h)(0x5C508D18)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (F:\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+F (..\FATFS\exfuns\exfuns.c)(0x53228404)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\exfuns.o --omf_browse ..\obj\exfuns.crf --depend ..\obj\exfuns.d)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+F (..\FATFS\exfuns\fattester.c)(0x53228C4A)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\fattester.o --omf_browse ..\obj\fattester.crf --depend ..\obj\fattester.d)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USMART\usmart.h)(0x528CCEDB)
+I (..\USMART\usmart_str.h)(0x528CCEDB)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\FATFS\exfuns\mycc936.c)(0x5322D5DA)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mycc936.o --omf_browse ..\obj\mycc936.crf --depend ..\obj\mycc936.d)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+F (..\FATFS\src\diskio.c)(0x532282B2)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\diskio.o --omf_browse ..\obj\diskio.crf --depend ..\obj\diskio.d)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\MALLOC\malloc.h)(0x55506F66)
+F (..\FATFS\src\ff.c)(0x52D56672)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ff.o --omf_browse ..\obj\ff.crf --depend ..\obj\ff.d)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (F:\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+F (..\EMWIN\STemWinHZ\GUI_FontHZ12.c)(0x552F45BD)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gui_fonthz12.o --omf_browse ..\obj\gui_fonthz12.crf --depend ..\obj\gui_fonthz12.d)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+F (..\EMWIN\STemWinHZ\GUI_FontHZ16.c)(0x552F45BD)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gui_fonthz16.o --omf_browse ..\obj\gui_fonthz16.crf --depend ..\obj\gui_fonthz16.d)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+F (..\EMWIN\STemWinHZ\GUI_FontHZ24.c)(0x552F45BD)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gui_fonthz24.o --omf_browse ..\obj\gui_fonthz24.crf --depend ..\obj\gui_fonthz24.d)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+F (..\EMWIN\STemWinHZ\GUI_UC_EncodeNone.c)(0x5C3EEC18)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gui_uc_encodenone.o --omf_browse ..\obj\gui_uc_encodenone.crf --depend ..\obj\gui_uc_encodenone.d)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+F (..\EMWIN\STemWinHZ\GUICharPEx.c)(0x55508AE2)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\guicharpex.o --omf_browse ..\obj\guicharpex.crf --depend ..\obj\guicharpex.d)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\HARDWARE\SPI\spi.h)(0x532D22BA)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\EMWIN\STemWinHZ\EmWin_ASCII_Font.h)(0x5538D287)
+I (..\HARDWARE\LCD\ili93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
+F (..\EMWIN\GUI_Builder\ar_BkwindowDLG.c)(0x5C665E0B)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ar_bkwindowdlg.o --omf_browse ..\obj\ar_bkwindowdlg.crf --depend ..\obj\ar_bkwindowdlg.d)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+I (..\HARDWARE\SD\includes.h)(0x5C51F26C)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\LCD.h)(0x5C508D18)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (F:\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
+F (..\EMWIN\GUI_Builder\ar_MotorcontrolALLDLG.c)(0x5C66524C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ar_motorcontrolalldlg.o --omf_browse ..\obj\ar_motorcontrolalldlg.crf --depend ..\obj\ar_motorcontrolalldlg.d)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+I (..\HARDWARE\SD\includes.h)(0x5C51F26C)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\LCD.h)(0x5C508D18)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (F:\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
+F (..\EMWIN\GUI_Builder\ar_MotorcontrolWindowPC.c)(0x5C66566E)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ar_motorcontrolwindowpc.o --omf_browse ..\obj\ar_motorcontrolwindowpc.crf --depend ..\obj\ar_motorcontrolwindowpc.d)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+I (..\HARDWARE\SD\includes.h)(0x5C51F26C)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\LCD.h)(0x5C508D18)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (F:\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
+F (..\EMWIN\GUI_Builder\ar_NumPad.c)(0x5C5DA030)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ar_numpad.o --omf_browse ..\obj\ar_numpad.crf --depend ..\obj\ar_numpad.d)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+F (..\EMWIN\GUI_Builder\ar_productioncontrolDLG.c)(0x5C665E5A)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ar_productioncontroldlg.o --omf_browse ..\obj\ar_productioncontroldlg.crf --depend ..\obj\ar_productioncontroldlg.d)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+I (..\HARDWARE\SD\includes.h)(0x5C51F26C)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\LCD.h)(0x5C508D18)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (F:\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
+F (..\EMWIN\GUI_Builder\ar_ProductionWindDLG.c)(0x5C665CCB)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ar_productionwinddlg.o --omf_browse ..\obj\ar_productionwinddlg.crf --depend ..\obj\ar_productionwinddlg.d)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+I (..\HARDWARE\SD\includes.h)(0x5C51F26C)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\LCD.h)(0x5C508D18)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (F:\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
+F (..\EMWIN\GUI_Builder\ar_putinNumberDLG.c)(0x5C665B6C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\TIMER -I..\MALLOC -I..\MALLOC -I..\USMART -I..\EMWIN\STemWin\Config -I..\EMWIN\STemWin\inc -I..\EMWIN\Demo -I..\HARDWARE\SD -I..\TEXT -I..\FATFS\exfuns -I..\FATFS\src -I..\EMWIN\STemWinHZ-I C:\Users\Administrator\Desktop\VN2.4ing_7寸屏STemWin无操作系统移植\USER\RTE-I F:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I F:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ar_putinnumberdlg.o --omf_browse ..\obj\ar_putinnumberdlg.crf --depend ..\obj\ar_putinnumberdlg.d)
+I (..\EMWIN\STemWin\inc\DIALOG.h)(0x5C656E2C)
+I (..\EMWIN\STemWin\inc\WM.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\GUI_ConfDefaults.h)(0x548F121D)
+I (..\EMWIN\STemWin\Config\GUIConf.h)(0x5432777E)
+I (..\EMWIN\STemWin\inc\GUI_Type.h)(0x5C532676)
+I (..\EMWIN\STemWin\inc\LCD.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\Global.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WM_GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Version.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\BUTTON.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\DIALOG_Intern.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\WIDGET.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\WM_Intern.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\GUI_Private.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LCD_Protected.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\GUI_Debug.h)(0x548F121D)
+I (F:\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\EMWIN\STemWin\inc\SCROLLBAR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CALENDAR.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\CHECKBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSECOLOR.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\CHOOSEFILE.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\DROPDOWN.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTBOX.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\EDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\FRAMEWIN.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\GRAPH.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\HEADER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\ICONVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\IMAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\LISTVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\LISTWHEEL.h)(0x548F1216)
+I (..\EMWIN\STemWin\inc\MENU.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\MULTIEDIT.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\MULTIPAGE.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\PROGBAR.h)(0x548F1219)
+I (..\EMWIN\STemWin\inc\RADIO.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\SLIDER.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\SPINBOX.h)(0x548F1217)
+I (..\EMWIN\STemWin\inc\TEXT.h)(0x548F121E)
+I (..\EMWIN\STemWin\inc\TREEVIEW.h)(0x548F121D)
+I (..\EMWIN\STemWin\inc\KNOB.h)(0x548F1217)
+I (..\HARDWARE\SD\includes.h)(0x5C51F26C)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x555AFBB1)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x54B9E91F)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWLIB\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC87B)
+I (..\HARDWARE\KEY\key.h)(0x550A8567)
+I (..\HARDWARE\LCD\ILI93xx.h)(0x55506BD0)
+I (F:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\LCD.h)(0x5C508D18)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (F:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\24CXX\24cxx.h)(0x4E8159A2)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\HARDWARE\FLASH\flash.h)(0x532C1F58)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TIMER\timer.h)(0x5C604922)
+I (..\MALLOC\malloc.h)(0x55506F66)
+I (..\HARDWARE\SRAM\sram.h)(0x550844BC)
+I (F:\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (F:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\TEXT\fontupd.h)(0x55508B8C)
+I (..\EMWIN\STemWinHZ\EmWinHZFont.h)(0x552F45D1)
